@@ -1,7 +1,7 @@
-function Hobby({hobbyList}){
+function Hobby({hobby}){
     return(
         <div className="hobby">
-            
+            <li>{hobby}</li>
         </div>
     )
 }

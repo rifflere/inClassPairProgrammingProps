@@ -3,7 +3,7 @@ const Hobbies = ({hobbyList}) => {
     return(
         <div>
             <ul>
-                <Hobby hobbyList={hobbyList}/>
+                {hobbyList.map((hobby, index) => <Hobby key={`${index}${hobby}`} hobby={hobby}/>)}
             </ul>
         </div>
     )
