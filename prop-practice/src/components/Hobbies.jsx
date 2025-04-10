@@ -1,4 +1,4 @@
-const Hobbies = (props) => {
+const Hobbies = ({hobbyList}) => {
     return(
         <div>
             
